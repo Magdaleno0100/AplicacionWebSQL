@@ -1,0 +1,15 @@
+﻿@model IEnumerable<AplicacionWeb.Models.Mascota>
+
+@{
+    ViewBag.Title = "Adoptar";
+}
+
+<h2>Adoptar</h2>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>Nombre : @item.Nombre</li>
+    }
+</ul>
+
+
